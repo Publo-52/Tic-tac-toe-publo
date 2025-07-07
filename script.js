@@ -36,9 +36,6 @@ const checkWin = () => {
             isgameover = true;
             document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "120px";
 
-            document.querySelector(".line").style.width = "300px"; // matches grid
-            document.querySelector(".line").style.transform = `translate(${e[3]}px, ${e[4]}px) rotate(${e[5]}deg)`;
-
         }
     });
 };
